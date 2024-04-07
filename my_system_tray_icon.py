@@ -1,7 +1,7 @@
 # coding:utf-8
 from PyQt5.QtCore import QCoreApplication
 from PyQt5.QtWidgets import QSystemTrayIcon, QMenu, QAction
-import WordsBoomAdmin.public_data as pdt
+import public_data as pdt
 
 
 # 定义左键点击图标的处理函数

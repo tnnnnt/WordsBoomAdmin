@@ -3,8 +3,8 @@ import asyncio
 from PyQt5.QtCore import QRegExp
 from PyQt5.QtGui import QRegExpValidator
 from PyQt5.QtWidgets import QWidget, QVBoxLayout, QLabel, QPushButton, QGridLayout, QHBoxLayout, QLineEdit, QMessageBox
-import WordsBoomAdmin.public_data as pdt
-from WordsBoomAdmin import asyncio_c
+import public_data as pdt
+import asyncio_c
 
 
 # 管理端控制台类

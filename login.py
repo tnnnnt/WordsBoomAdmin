@@ -2,10 +2,10 @@
 import asyncio
 from PyQt5.QtCore import Qt, QCoreApplication
 from PyQt5.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit, QPushButton, QMessageBox
-import WordsBoomAdmin.public_data as pdt
-from WordsBoomAdmin import asyncio_c
-from WordsBoomAdmin.console import Console
-from WordsBoomAdmin.my_system_tray_icon import MySystemTrayIcon
+import public_data as pdt
+import asyncio_c
+from console import Console
+from my_system_tray_icon import MySystemTrayIcon
 
 
 # 管理员登录界面类

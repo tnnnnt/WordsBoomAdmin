@@ -4,8 +4,8 @@ import sys
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QIcon, QFont
 from PyQt5.QtWidgets import QApplication, QMessageBox
-import WordsBoomAdmin.public_data as pdt
-from WordsBoomAdmin.login import Login
+import public_data as pdt
+from login import Login
 
 
 # 文件锁，防止多开
